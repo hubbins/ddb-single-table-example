@@ -6,7 +6,7 @@ import copy
 import argparse
 
 tablename = "northwind"
-dynamodb = boto3.resource('dynamodb', region_name="us-east-2")
+dynamodb = boto3.resource('dynamodb', region_name="us-east-2", endpoint_url='http://localhost:8000')
 
 def setup():
     dynamodb.create_table(TableName=tablename,
