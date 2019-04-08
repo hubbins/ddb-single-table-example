@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "54ff8dee333d9809ab3b92890bd62c4ba07ee9032dae28cf68db4fcd2000df60"
+            "sha256": "87287bbc1cac0d55920f2502399a4a83ec4db01994d65052a0d4728359618b1a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,18 +18,18 @@
     "default": {
         "boto3": {
             "hashes": [
-                "sha256:3b817da4a804f7ee5ce252e38b890ec84752c51488360a9dc492eb27c258ff2b",
-                "sha256:76d6c2d955d9a799a8d9cf8754ad377059e7809dd1820bace07e600f0a7c4ad6"
+                "sha256:bb69628f933a8dba22817c85289b3421b23ac643ff3202b13dd2e933c2717109",
+                "sha256:c75c45bae9dbdb2ff3fc3482d421a3901e552574a882dba1cffa064715acfbe7"
             ],
             "index": "pypi",
-            "version": "==1.9.107"
+            "version": "==1.9.130"
         },
         "botocore": {
             "hashes": [
-                "sha256:0c2bd4cf18c8790983e9df3198125d16578195e93401c28edbda4e4d6d0475ae",
-                "sha256:479e9c89653380d546be52dfea562be03a41665ef4758e98d4f30b1148946a92"
+                "sha256:128130b12f8ba4bf07a673b119135264060eb98f6a4a7419cbd1f2c6dc926827",
+                "sha256:59376112fdee707927b644dd44a1771861f8fe354a48d596131ced83d7a3c05b"
             ],
-            "version": "==1.12.107"
+            "version": "==1.12.130"
         },
         "docutils": {
             "hashes": [
@@ -77,5 +77,20 @@
             "version": "==1.24.1"
         }
     },
-    "develop": {}
+    "develop": {
+        "autopep8": {
+            "hashes": [
+                "sha256:33d2b5325b7e1afb4240814fe982eea3a92ebea712869bfd08b3c0393404248c"
+            ],
+            "index": "pypi",
+            "version": "==1.4.3"
+        },
+        "pycodestyle": {
+            "hashes": [
+                "sha256:95a2219d12372f05704562a14ec30bc76b05a5b297b21a5dfe3f6fac3491ae56",
+                "sha256:e40a936c9a450ad81df37f549d676d127b1b66000a6c500caa2b085bc0ca976c"
+            ],
+            "version": "==2.5.0"
+        }
+    }
 }
